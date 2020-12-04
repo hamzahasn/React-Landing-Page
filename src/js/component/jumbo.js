@@ -10,7 +10,9 @@ const Jumbo = props => {
 						<img className="goku" src={props.goku} alt="" />
 					</div>
 					<div className="col-12 col-md-6">
-						<h1 className="display-4">{props.jumboheading}</h1>
+						<h1 className="display-4 heading">
+							{props.jumboheading}
+						</h1>
 						<p className="lead">{props.about}</p>
 
 						<a

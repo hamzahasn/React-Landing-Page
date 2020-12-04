@@ -12,13 +12,15 @@
 
 */
 body {
-        font-family: 'Bangers', cursive;
-        font-size: 18px;
+        // font-family: 'Bangers', cursive;
+        // font-size: 18px;
 }
 .btn {
     background-color: #f85b1a;
     color: white;
     border: none;
+    font-family: 'Bangers';
+    font-size: 20px;
 }
 .btn:hover {
   background-color:  #f9ee54; 
@@ -32,15 +34,14 @@ body {
 .navbar-brand {
     padding-left: 5px;
     font-size: 30px;
+    font-family: 'Bangers', cursive;
 }
 
 .jumbotron {
     background-color:white;
     width: 100%;
 }
-body {
-    background-color: white;
-}
+
 .navbar {
 background: rgb(222,83,22);
 background: linear-gradient(90deg, rgba(222,83,22,1) 17%, rgba(248,197,26,1) 87%) !important;
@@ -54,6 +55,7 @@ background: rgb(222,83,22);
 background: linear-gradient(90deg, rgba(222,83,22,1) 17%, rgba(248,197,26,1) 87%);
   position: absolute;
 width: 100%;
+font-family: 'Bangers', cursive;
 
 }
 .flex-center {
@@ -61,8 +63,13 @@ width: 100%;
   align-items: center;
   justify-content: center;
 }
+.card-title {
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+}
 .card-text {
-    height: 300px;
+    height: 150px;
+    // padding-bottom: 40px;
 }
 .cardimgs {
     height: 300px;
@@ -70,6 +77,10 @@ width: 100%;
 .footerbtn {
     color: black;
 }
+.heading {
+    font-family: 'Bangers', cursive;
+}
+
 
 
 // .cardsbtn {
